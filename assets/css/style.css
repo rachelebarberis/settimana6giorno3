@@ -27,7 +27,7 @@ header, .hero {
 }
 
 .hero img {
-  border-color: white;
+  border-color: #640fc5;
   border-radius: 10px;
   box-shadow: 2px 2px 2px black;
 }
@@ -35,6 +35,14 @@ header, .hero {
 .btn1, .btn2, .btn3 {
   border-color: transparent;
   border-radius: 10px;
+}
+
+.img1, .img2, .img3, .img4 {
+  border-radius: 10px;
+  border-color: trasparent;
+  box-shadow: 2px 2px 2px black;
+  width: 300px;
+  margin: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

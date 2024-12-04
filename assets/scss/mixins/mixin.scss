@@ -4,7 +4,15 @@
 }
 
 @mixin imgHero {
-    border-color: white;
+    border-color: #640fc5;
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
+}
+
+@mixin imgfinals {
+    border-radius: 10px;
+    border-color: trasparent;
+    box-shadow: 2px 2px 2px black;
+    width:300px;
+    margin: 3px;
 }

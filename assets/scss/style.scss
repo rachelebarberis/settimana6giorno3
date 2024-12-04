@@ -12,3 +12,6 @@ header, .hero {
 .btn1, .btn2, .btn3 {
     @include borderbutton;
 }
+.img1, .img2, .img3, .img4 {
+    @include imgfinals;
+}
