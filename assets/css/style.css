@@ -75,6 +75,36 @@ li:hover {
   font-weight: bold;
 }
 
+.heroright {
+  transform: translateY(100px);
+  animation: fade-slide-in-bottom 1s ease-out forwards;
+}
+
+@keyframes fade-slide-in-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.divbtn {
+  transform: translateX(-10px);
+  animation: fade-slide-in-left 1s ease-out forwards;
+}
+
+@keyframes fade-slide-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .btn1, .btn2, .btn3 {
   border: none;
   border-radius: 10px;
