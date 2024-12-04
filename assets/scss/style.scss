@@ -5,18 +5,27 @@
 header, .hero {
     background-color: #640fc5;
 }
+.hero {
+    padding-bottom: 20px;
+}
 h1 {
     color: black;
     font-size: 65px;
     font-weight: 900;
 }
+.heroright {
+    position: relative;
+}
 .hero img{
     @include imgHero;
+    position:absolute;
+    top: 50px;
 }
 
 .btn1, .btn2, .btn3 {
     @include borderbutton;
 }
+
 .img1, .img2, .img3, .img4 {
     @include imgfinals;
 }

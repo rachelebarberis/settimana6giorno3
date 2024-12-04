@@ -22,6 +22,10 @@ html, body {
   color: white;
 }
 
+#section2 {
+  margin-top: 100px;
+}
+
 .img1, .img2, .img3, .img4 {
   overflow: hidden;
   width: 300px;
@@ -32,16 +36,26 @@ header, .hero {
   background-color: #640fc5;
 }
 
+.hero {
+  padding-bottom: 20px;
+}
+
 h1 {
   color: black;
   font-size: 65px;
   font-weight: 900;
 }
 
+.heroright {
+  position: relative;
+}
+
 .hero img {
   border-color: #640fc5;
   border-radius: 10px;
   box-shadow: 2px 2px 2px black;
+  position: absolute;
+  top: 50px;
 }
 
 .btn1, .btn2, .btn3 {
