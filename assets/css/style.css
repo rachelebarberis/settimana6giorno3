@@ -58,6 +58,23 @@ h1 {
   top: 50px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 3px;
+}
+
+li:hover {
+  color: red;
+}
+
+.h4 {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
 .btn1, .btn2, .btn3 {
   border: none;
   border-radius: 10px;
