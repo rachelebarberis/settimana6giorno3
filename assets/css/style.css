@@ -22,8 +22,20 @@ html, body {
   color: white;
 }
 
+.img1, .img2, .img3, .img4 {
+  overflow: hidden;
+  width: 300px;
+  margin: 3px;
+}
+
 header, .hero {
   background-color: #640fc5;
+}
+
+h1 {
+  color: black;
+  font-size: 65px;
+  font-weight: 900;
 }
 
 .hero img {
@@ -41,9 +53,6 @@ header, .hero {
   border-radius: 10px;
   border: none;
   box-shadow: 2px 2px 2px black;
-  width: 300px;
-  margin: 3px;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
