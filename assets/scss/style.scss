@@ -1,4 +1,14 @@
-@use 'partials/reset';
-@use 'partials/button';
-@use 'partials/griglia';
+@use 'partials/reset.scss';
+@use 'partials/button.scss';
+@use 'partials/griglia.scss';
+@import '../scss/mixins/mixin.scss';
+header, .hero {
+    background-color: #640fc5;
+}
+.hero img{
+    @include imgHero;
+}
 
+.btn1, .btn2, .btn3 {
+    @include borderbutton;
+}

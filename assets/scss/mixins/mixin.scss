@@ -1,0 +1,10 @@
+@mixin borderbutton {
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+@mixin imgHero {
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}

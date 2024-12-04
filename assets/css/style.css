@@ -7,4 +7,34 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.btn1 {
+  background-color: #0e6cff;
+  color: white;
+}
+
+.btn2 {
+  background-color: #ff8700;
+  color: white;
+}
+
+.btn3 {
+  background-color: #4caf50;
+  color: white;
+}
+
+header, .hero {
+  background-color: #640fc5;
+}
+
+.hero img {
+  border-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.btn1, .btn2, .btn3 {
+  border-color: transparent;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
